@@ -1,0 +1,33 @@
+@media (max-width:375px) {
+    .header-res {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h2.text-5xl.mb-4 {
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .four-card.flex.items-center.gap-3 {
+        flex-direction: column;
+    }
+    section.accordion.container.mx-auto {
+        display: flex;
+        flex-direction: column;
+    }
+    .for-accordion.flex.justify-between {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer.bg-\[\#0b0d17\].pt-2.flex.justify-between {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
