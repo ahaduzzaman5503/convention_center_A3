@@ -3,12 +3,23 @@ body{
     font-family: 'Teko', sans-serif;
 
 }
-.carousel-sec{
-    height: calc(100vh - 20rem);
+.sc-custom{
+    position: relative;
 }
-
-.carousel-sec img{
-    width: 100%;
-    height: 100%;
+.sc-custom::after{
+    content: 'Hot';
+    height: 30px;
+    width: 35px;
+    top: -16px;
+    left: 255px;
+    background-color:#ff4e4e;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30%;
+    padding: 3px 14px;
 }
 
